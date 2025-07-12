@@ -1,0 +1,106 @@
+/* Hero section */
+.hero {
+  background: url('/images/hero.jpg') no-repeat center center/cover;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: white;
+  color: black;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.cta-button:hover {
+  background: #f0f0f0;
+}
+
+/* Intro section */
+.intro {
+  text-align: center;
+  padding: 60px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.intro h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Featured section */
+.featured {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.featured h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.featured-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.collection-card {
+  width: 280px;
+  text-align: center;
+}
+
+.collection-card img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  height: 340px;
+}
+
+.collection-card h3 {
+  margin-top: 12px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.center-btn {
+  margin-top: 30px;
+}
+
+.view-all {
+  text-decoration: none;
+  font-weight: 600;
+  color: #111;
+  border: 1px solid #111;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.view-all:hover {
+  background: #111;
+  color: white;
+}
